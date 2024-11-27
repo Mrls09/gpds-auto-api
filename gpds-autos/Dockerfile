@@ -12,7 +12,7 @@ COPY . .
 # Ejecutar el proceso de construcción
 RUN mvn clean package -DskipTests
 
-# Verificar que el archivo .jar se ha generado correctamente
+# Verificar si el archivo .jar existe en /app/target/
 RUN ls -l /app/target/
 
 # Etapa de ejecución
