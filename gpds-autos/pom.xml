@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>mx.edu.utez</groupId>
-    <artifactId>gpds-autoss</artifactId>
+    <artifactId>gpds-autos</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>gpds-autos</name>
     <description>gpds-autos</description>
