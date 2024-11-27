@@ -19,8 +19,8 @@ RUN ls -l /app/target/
 FROM openjdk:17-jdk-slim
 WORKDIR /app
 
-# Copiar el archivo .jar desde la etapa build
-COPY --from=build /app/target/gpds-autos-0.0.1-SNAPSHOT.jar app.jar
+# Copiar el archivo .jar desde la etapa build, con el nombre correcto
+COPY --from=build /app/target/gpds-aut-0.0.1-SNAPSHOT.jar app.jar
 
 # Exponer el puerto que la aplicación usará
 EXPOSE 8083
